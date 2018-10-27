@@ -1,0 +1,7 @@
+.nav-bar {
+    -webkit-app-region: drag;
+    position: relative;
+    height: 24px;
+    width: 100%;
+    background-color: #263238;
+}

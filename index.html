@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="./base.css">
+
+<head>
+	<title>Mass Email List Creator</title>
+</head>
+<body>
+	<div class="nav-bar" style="">
+    </div>
+	<div class="container">
+		<h3 style="center">Mass Email Creator</h3>
+		<div class="form-group row">
+			<p class="col-sm-1">Name: </p>
+			<div class="col-sm-11"><input type="text" class="form-control" id="name1" placeholder="Johnny Appleseed"></div>
+		</div>
+		<div class="form-group row">
+			<p class="col-sm-1">Email: </p>
+			<div class="col-sm-11"><input type="email" class="form-control" id="email1" placeholder="ladiesman221@gmail.com"></div>
+		</div>
+		<h5 class="errormessage" style="color:red"> **Please enter both first and last name.</h5>
+		<div>
+			<button type="submit" style= "inline" class="btn btn-primary" id="submit1">Submit</button> 
+			<button class="btn btn-primary" style = "inline" id="get-info">Get Info</button>
+			<button class="btn" id="clear"> Clear Data </button> <br> 
+		</div>
+
+		<table class="table table-hover" id="mytable">
+			<thead>
+				<tr>
+					<th>Name: </th>
+					<th>Email: </th>
+				</tr>
+			</thead>
+			<tbody id="info">
+				
+			</tbody>
+		</table>
+		<div class="form-group">
+			<label for="emailtag" class="form-check-label"><input type="checkbox" class="form-check-input" id= "check1"> Show mass email tag</label>
+		</div>
+		<div id="list">
+
+		</div>
+	</div>
+	<script src="generate.js"></script>
+</body>
+</html>
