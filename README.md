@@ -1,4 +1,4 @@
-# Mass Email Creater
+# Mass Email Creator
 #
 This is a simple native desktop application that allows the user to add contacts and their emails into a mass email chain that can later be used to send mass emails neatly. 
 # 
