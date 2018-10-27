@@ -4,5 +4,7 @@ This is a simple native desktop application that allows the user to add contacts
 # 
 Contact data is stored between use. 
 #
+## Install
+Simply clone the project and download the dependencies with "npm install". Then run with "npm start".
 #
 # ![Alt text](img/application.png)
